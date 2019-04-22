@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @model_with_comment.text %>
+</p>
+
+<p>
+  <strong>Commentable:</strong>
+  <%= @model_with_comment.commentable %>
+</p>
+
+<%= link_to 'Edit', edit_model_with_comment_path(@model_with_comment) %> |
+<%= link_to 'Back', model_with_comments_path %>
